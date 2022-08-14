@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  height: 250px;
+  background-color: rgb(250, 250, 250);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li  {
+  text-decoration: none;
+  color: rgb(21, 6, 6);
+  list-style: none;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.titulo {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 50px 50px 10px;
+}
+
+#centrar {
+  text-align: center;
+}
+#conoceme {
+  margin-inline-start: 1%;
+}
+.descripcion {
+ margin-inline: 1%;
+}
+
+.letra{
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.megusta{
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+.corrida{
+max-width: 10%;
+max-height: 10%;
+}
+
+.estudios{
+  max-width: 20%;
+  margin: 3%;
+  text-align: center;
+}
+
+.luego{
+  font-size: 60px;
+  font-weight: bold;
+}
+#calma{
+  margin-inline: 55%;
+  max-width: 130%;
+}
+
+#logocss{
+  margin-inline: 40%;
+  max-width: 30%;
+
+}
+#logojs{
+  margin-inline: 5%;
+  max-width: 50%;
+}
+.loca{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: rgb(4, 4, 5);
+  box-shadow: 25%;
+  background-color: rgba(245, 240, 253, 0.582);
+  margin: 0 auto;
+}
+.loca li{
+ display: inline-block;
+ 
+}
